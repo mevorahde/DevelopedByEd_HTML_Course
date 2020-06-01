@@ -9,37 +9,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <h1>Forms</h1>
-    <form autocomplete="off">
-      <label for="user">Username</label>
-      <input
-        maxlength="16"
-        minlength="6"
-        name="user"
-        type="text"
-        id="user"
-        placeholder="Enter in your username"
-      />
-      <label>Email</label>
-      <input
-        autocomplete="off"
-        type="email"
-        placeholder="Enter in your email"
-      />
-      <select name="products" id="product">
-        <option value=""></option>
-        <option value="Macbook 2018">Macbook</option>
-        <option value="iPhone 11">iPhone</option>
-      </select>
-      <label for="message">Message</label>
-      <textarea
-        required
-        name="message"
-        id="message"
-        cols="30"
-        rows="10"
-      ></textarea>
-      <button type="submit">Submit</button>
-    </form>
+    <header>
+      <h1 id="logo">Logo</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>Projects</li>
+          <li>Sign Up</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>These are my images</h2>
+        <div class="black">
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+        <div class="Red">
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+      </section>
+
+      <article>
+        <h2>My little book</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+          pulvinar, orci nec rhoncus cursus, lacus turpis sodales velit,
+          interdum lacinia dui leo non magna. Sed posuere commodo ipsum.
+          Maecenas nec risus eleifend, fermentum sapien at, euismod enim.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          Curabitur a consequat risus. Vestibulum a lobortis ante. Vivamus at
+          eleifend sem. Praesent pretium suscipit nisl vitae euismod. Nulla
+          facilisi.
+        </p>
+      </article>
+    </main>
+    <footer>
+      <p>Created 2020 copyright &copy;</p>
+    </footer>
   </body>
 </html>
