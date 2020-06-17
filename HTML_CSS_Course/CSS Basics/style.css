@@ -8,41 +8,38 @@ html {
   font-size: 62.5%;
 }
 
-html,
-body {
-  height: 200%;
+button {
+  padding: 2rem 4rem;
 }
 
-.container {
-  background: cadetblue;
-  width: 80%;
-  height: 80%;
-  margin: auto;
-  position: relative;
+button:hover {
+  background: lightslategray;
+  padding: 2rem 7rem;
 }
 
-.box1,
-.box2,
-.box3 {
-  width: 10%;
-  height: 10%;
-  background: rgb(164, 52, 255);
+button:focus {
+  background: rgb(55, 145, 89);
+  padding: 2rem 7rem;
 }
 
-.box2 {
-  background-color: rgb(63, 255, 223);
-  position: relative;
-  left: 3rem;
+input:focus {
+  background: rgb(55, 145, 89);
+  padding: 2rem 7rem;
 }
 
-.box3 {
-  background-color: rgb(29, 29, 29);
-  position: sticky;
-  top: 0%;
+button:nth-child(3) {
+  padding: 2rem 7rem;
+  cursor: pointer;
 }
 
-.box1 {
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
+h1 {
+  font-size: 4rem;
+}
+
+h1::before {
+  content: " Before ";
+}
+
+h1::after {
+  content: " me";
 }
