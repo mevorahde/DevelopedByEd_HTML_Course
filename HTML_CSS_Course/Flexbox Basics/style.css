@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 10rem;
+  flex: 1 1 20rem;
+}
+
+.box1 {
+  background: rgb(162, 92, 202);
+  order: 1;
+}
+
+.box2 {
+  background: rgb(92, 94, 202);
+  order: 2;
+}
+
+.box3 {
+  background: rgb(118, 202, 92);
+  order: 3;
+}
+
+.box4 {
+  background: rgb(202, 92, 129);
+  order: 4;
+}
+
+.box5 {
+  background: rgb(202, 176, 92);
+  order: 5;
+}
+
+.box6 {
+  background: rgb(52, 52, 102);
+  order: 6;
+}
