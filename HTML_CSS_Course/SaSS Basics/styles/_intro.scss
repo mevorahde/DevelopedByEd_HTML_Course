@@ -1,0 +1,35 @@
+section h2 {
+    color: $primary;
+    font-size: $big-font;
+}
+
+section button {
+    color: $primary;
+}
+
+.introduction {
+    min-height: 100vh;
+    flex-direction: column;
+    @include flex(column, center);
+
+    h2 {
+        font-size: $big-font;
+    }
+
+    button {
+        border: none;
+        background: $primary;
+        padding: 1rem 3rem;
+        color: black;
+        cursor: pointer;
+        transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+
+        &:hover {
+            background: rgb(92, 164, 189);
+        }
+    }
+}
